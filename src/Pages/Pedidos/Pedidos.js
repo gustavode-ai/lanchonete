@@ -64,7 +64,7 @@ const Pedidos = () => {
   // Envia a mensagem para o Telegram
   const enviarParaTelegram = (mensagem) => {
     const token = '7799185968:AAHoKTtpKnTPNX8PW6v-7NeewN4e568IxkM';
-    const chatId = '6632791493';
+    const chatId = '8012740307';
     const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(
       mensagem
     )}`;
